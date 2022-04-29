@@ -1,0 +1,45 @@
+%drops {
+    position: absolute;
+    background: $primary_color;
+    padding: 19px 0;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.03);
+}
+%dropLi{
+    line-height: 2.4;
+    position: relative;
+}
+%arrowRight{
+    font-size: 9px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 17px;
+    color: $dropText_color;
+}
+%innerDrop{
+    width: 210px;
+    left: 100%;
+    top: -19px;
+}
+%sliderArrow{
+    position: absolute;
+    top: 44%;
+    font-size: 40px;
+    color: #6d6a6a;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: color,opacity 0.2s;
+    &:hover{
+      opacity: 1;
+      color: #080808;
+    }
+}
+%sliderNum{
+    user-select: auto;
+    position: absolute;
+    top: 2px;
+    font-family:'Playfair Display', serif;
+    font-size: 19px;
+    color: #080808;
+    letter-spacing: 0.1em;
+    display: none;
+}
